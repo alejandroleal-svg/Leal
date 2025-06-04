@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lavandería Leal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #f7f1f1, #e0f7fa);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4db6ac;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #00897b;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+    }
+
+    h2 {
+      color: #00796b;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .content img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 300px;
+      background: #ffffffcc;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lavandería El Leal</h1>
+    <p>¡Tu ropa limpia, rápida y segura!</p>
+  </header>
+
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#lavadoras">Tipos de Lavadoras</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#costos">Costos</a>
+    <a href="#importancia">Importancia</a>
+    <a href="#horarios">Horarios y Sucursales</a>
+  </nav>
+
+  <section id="historia">
+    <h2>Historia de la Lavandería</h2>
+    <div class="content">
+      <div class="card">
+        <p>La Lavandería El Leal nació en 2010 con el sueño de brindar un servicio rápido, ecológico y confiable. Empezamos con una sola sucursal y hoy contamos con más de 10 en toda la ciudad.</p>
+      </div>
+      <img src="https://4.bp.blogspot.com/-acj0BBV8v3Y/V9JbInTpA7I/AAAAAAAA4MI/SEDBGfgr2q4Q5keR_tvRy7y54hi5Rk_fACEw/s1600/lavanderas-en-el-rio-lavaderospublicos.net.jpg" alt="Historia de la lavandería">
+    </div>
+  </section>
+
+  <section id="lavadoras">
+    <h2>Tipos de Lavadoras que Usamos</h2>
+    <div class="content">
+      <div class="card">
+        <ul>
+          <li>Lavadoras industriales de carga frontal</li>
+          <li>Secadoras ecológicas de alta capacidad</li>
+          <li>Máquinas de lavado en seco</li>
+          <li>Lavadoras automáticas inteligentes</li>
+        </ul>
+      </div>
+      <img src="https://www.magrana.es/wp-content/uploads/2023/11/shutterstock_2213615699-1.jpg" alt="Tipos de lavadoras">
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios que Ofrecemos</h2>
+    <div class="content">
+      <div class="card">
+        <ul>
+          <li>Lavado y secado por kilo</li>
+          <li>Lavado en seco</li>
+          <li>Planchado profesional</li>
+          <li>Recolección y entrega a domicilio</li>
+          <li>Lavado de ropa delicada y de cama</li>
+        </ul>
+      </div>
+      <img src="https://directorio.org.es/wp-content/uploads/2020/08/shutterstock_424728889FILEminimizer-1.jpg" alt="Servicios de lavandería">
+    </div>
+  </section>
+
+  <section id="costos">
+    <h2>Costos de la Lavandería</h2>
+    <div class="card">
+      <ul>
+        <li>Lavado y secado por kilo: $25 MXN</li>
+        <li>Planchado por prenda: $10 MXN</li>
+        <li>Lavado en seco: desde $50 MXN</li>
+        <li>Servicio a domicilio: $20 MXN (zona local)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="importancia">
+    <h2>¿Por qué son importantes las lavanderías?</h2>
+    <div class="card">
+      <p>Las lavanderías permiten ahorrar tiempo, agua y energía. Son fundamentales para quienes tienen poco tiempo o viven en espacios reducidos. Además, ofrecen limpieza profunda y cuidado especializado para prendas delicadas.</p>
+    </div>
+  </section>
+
+  <section id="horarios">
+    <h2>Horarios y Sucursales</h2>
+    <div class="card">
+      <p><strong>Horarios:</strong><br>
+      Lunes a sábado: 8:00 AM – 8:00 PM<br>
+      Domingo: 9:00 AM – 3:00 PM</p>
+
+      <p><strong>Sucursales:</strong></p>
+      <ul>
+        <li>Sucursal Centro: Av las torres, EDOMEX</li>
+        <li>Sucursal Sur: Calzada de zaragoza 230, CDMX</li>
+        <li>Sucursal Norte: Eje Central 345, CDMX</li>
+      </ul>
+    </div>
+  </section>
+
+<li>Mira un video sobre la historia de la lavadora: <a href="https://youtu.be/WtzghFJym3E" target="_blank">Historia de la lavadora</a></li>
+        </ul>
+    </div>
+
+
+  <footer>
+    <p>&copy; 2025 Lavandería Leal | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
